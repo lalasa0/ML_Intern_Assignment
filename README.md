@@ -17,12 +17,13 @@ Copy
 Edit
 python ml_model_training.py
 Repository Structure
-ML_Intern_Assignment.ipynb - Jupyter Notebook containing all tasks.
-ml_model_training.py - Python script for training and evaluating models.
-models/ - Folder containing trained models and scalers.
-README.md - Instructions for installation and usage.
-requirements.txt - List of required dependencies.
-report.pdf (or report.md) - Summary of the approach, findings, and improvements.
+File/Folder	Description
+ML_Intern_Assignment.ipynb	Jupyter Notebook containing all tasks.
+ml_model_training.py	Python script for training and evaluating models.
+models/	Folder containing trained models and scalers.
+README.md	Instructions for installation and usage.
+requirements.txt	List of required dependencies.
+report.pdf (or report.md)	Summary of the approach, findings, and improvements.
 Report Summary
 Preprocessing Steps
 Removed unnecessary columns and handled missing values.
@@ -41,7 +42,12 @@ Ensemble	1591.27	3142.31	0.9647
 Classification Adaptation (Optional)
 If applied to classification, evaluate using:
 
-Accuracy, Precision, Recall, F1-Score, Confusion Matrix.
+Metric	Description
+Accuracy	Overall correctness of the model.
+Precision	Ratio of correctly predicted positive cases to total predicted positives.
+Recall	Ratio of correctly predicted positive cases to all actual positives.
+F1-Score	Harmonic mean of precision and recall.
+Confusion Matrix	Matrix showing true vs. predicted values.
 Visualizations
 Scatter Plot: Actual vs. Predicted values for regression.
 Confusion Matrix (if classification task).
