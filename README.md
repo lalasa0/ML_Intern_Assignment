@@ -20,8 +20,6 @@ python ml_model_training.py
 | File/Folder                | Description                                       |
 |----------------------------|---------------------------------------------------|
 | `ML_Intern_Assignment.ipynb` | Jupyter Notebook containing all tasks.           |
-| `ml_model_training.py`     | Python script for training and evaluating models. |
-| `models/`                  | Folder containing trained models and scalers.     |
 | `README.md`                | Instructions for installation and usage.         |
 | `requirements.txt`         | List of required dependencies.                   |
 | `report.pdf` (or `report.md`) | Summary of the approach, findings, and improvements. |
